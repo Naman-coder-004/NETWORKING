@@ -24,7 +24,7 @@ I have started learning computer networking as part of my cybersecurity journey.
 - `README.md` — Introduction to this repository.
 - `networking-notes.md` — Detailed computer networking notes.
 
-  📚 Topics Covered
+ ## 📚 Topics Covered
 
 TCP/IP Model
 
