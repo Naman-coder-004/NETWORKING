@@ -24,6 +24,20 @@ I have started learning computer networking as part of my cybersecurity journey.
 - `README.md` — Introduction to this repository.
 - `networking-notes.md` — Detailed computer networking notes.
 
+  📚 Topics Covered
+
+TCP/IP Model
+
+TCP/IP Model Layers
+
+TCP vs UDP
+
+TCP-Based Application Protocols
+
+UDP-Related Protocols and Services
+
+Common Networking Protocols and Their Uses
+
 I will keep updating this repository as I learn new networking concepts.
 
 **Learning step by step, building my cybersecurity foundation! 🚀**
