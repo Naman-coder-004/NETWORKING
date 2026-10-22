@@ -150,7 +150,7 @@ TCP is a connection-oriented transport protocol that provides reliable and order
 
 HTTP
 
-HTTPS (traditional HTTP/1.1 and HTTP/2 connections)
+HTTPS
 
 FTP
 
