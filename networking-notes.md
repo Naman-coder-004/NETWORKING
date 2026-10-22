@@ -143,7 +143,7 @@ Handles communication over the local network, including framing and physical tra
 
 # TCP — Transmission Control Protocol
 
-# TCP is a connection-oriented transport protocol that provides reliable and ordered data delivery.
+TCP is a connection-oriented transport protocol that provides reliable and ordered data delivery.
 
 
 ## Examples of applications that use TCP:
