@@ -111,6 +111,66 @@ From Layer 7 to Layer 1:
 - PAN, LAN, MAN, and WAN classify networks by their geographical coverage.
 - The OSI model contains seven layers and helps explain network communication.
 
+  ## TCP/IP Model
+
+## Full Form: Transmission Control Protocol / Internet Protocol
+
+The TCP/IP model describes how data is transmitted between devices over a network and the internet.
+
+## Four Layers of the TCP/IP Model
+
+## Application Layer
+
+Provides network services to applications.
+
+
+## Transport Layer
+
+Provides communication between applications on different devices.
+
+
+## Internet Layer
+
+Handles logical addressing and routing packets between networks.
+
+
+## Network Access Layer
+
+Handles communication over the local network, including framing and physical transmission.
+
+
+## TCP and UDP
+
+# TCP — Transmission Control Protocol
+
+# TCP is a connection-oriented transport protocol that provides reliable and ordered data delivery.
+
+
+## Examples of applications that use TCP:
+
+HTTP
+
+HTTPS (traditional HTTP/1.1 and HTTP/2 connections)
+
+FTP
+
+SMTP
+
+## UDP — User Datagram Protocol
+
+UDP is a connectionless transport protocol that sends data without guaranteeing delivery or order.
+
+
+## Examples of protocols and services that can use UDP:
+
+DNS
+
+DHCP
+
+TFTP
+
+NTP
+
 ## Learning Goal 🎯
 
 My goal is to strengthen my networking fundamentals and understand how devices communicate, how data travels, and how networks support cybersecurity.
