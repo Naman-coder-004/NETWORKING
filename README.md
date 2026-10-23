@@ -38,6 +38,41 @@ UDP-Related Protocols and Services
 
 Common Networking Protocols and Their Uses
 
+## 📚 Topics Learned
+
+# Network Addressing
+
+- Understanding addresses in computer networks
+
+- Logical addresses (IP addresses)
+
+- Physical addresses (MAC addresses)
+
+##  IP Address
+
+- Meaning of Internet Protocol (IP) addresses
+
+- Difference between IPv4 and IPv6
+
+- Understanding IP address formats and bit lengths
+
+#  IPv4
+
+- 32-bit address
+
+- Four groups of 8 bits,
+
+ - Ranges from 0 to 255
+
+- Example: 192.168.29.63
+
+#  IPv6
+
+- 128-bit address
+
+- Eight groups of 16 bits
+
+
 
 I will keep updating this repository as I learn new networking concepts.
 
