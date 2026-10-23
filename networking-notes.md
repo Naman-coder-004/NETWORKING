@@ -171,8 +171,80 @@ TFTP
 
 NTP
 
+
+##  Addresses in Computer Networks
+
+An address in a computer network helps identify a device or network interface so that data can be delivered to the correct destination.
+
+There are two important types of addresses:
+
+1. Logical Address
+2. Physical Address
+
+### Logical Address
+
+A logical address is used to identify a device at the network layer.
+
+**Example:** IP address
+
+### Physical Address
+
+A physical address is generally used to identify a network interface on a local network.
+
+**Example:** MAC address
+
+| Logical Address | Physical Address |
+|---|---|
+| Usually an IP address | Usually a MAC address |
+| Used for communication across networks | Used for communication on a local network |
+| IPv4 or IPv6 | Commonly 48 bits |
+| Can change depending on network configuration | Can be randomized or changed in software |
+
+
+##  IP Address
+
+- IP stands for **Internet Protocol**.
+
+- An IP address is a logical address used to identify a network interface and help route data between networks.
+
+There are two main versions of IP:
+
+- IPv4
+- IPv6
+
+
+##  IPv4 — Internet Protocol Version 4
+
+IPv4 is the older and still widely used version of the Internet Protocol.
+
+### Features of IPv4
+
+- It uses **32 bits**.
+- It is written in dotted-decimal notation.
+- It contains four groups.
+- Each group contains 8 bits.
+
+
+
+## IPv6 — Internet Protocol Version 6
+
+IPv6 is the newer version of the Internet Protocol, designed in part to provide a much larger address space than IPv4.
+
+### Features of IPv6
+
+- It uses **128 bits**.
+- It normally contains eight groups.
+- Each group represents 16 bits.
+
+
+
+
+
+
+
 ## Learning Goal 🎯
 
 My goal is to strengthen my networking fundamentals and understand how devices communicate, how data travels, and how networks support cybersecurity.
+
 
 **Learning today to build stronger skills for tomorrow! 🚀**
