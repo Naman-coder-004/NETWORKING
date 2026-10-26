@@ -76,5 +76,16 @@ Common Networking Protocols and Their Uses
 
 I will keep updating this repository as I learn new networking concepts.
 
+## 📚 Topics Learned
+
+### : Binary Number System and LAN Setup
+
+- Understanding how computers represent numbers in binary form.
+- Understanding powers of 2.
+- Setting up a Local Area Network (LAN) using Cisco Packet Tracer.
+- Configuring a router using Cisco IOS Command-Line Interface (CLI).
+- Assigning an IP address and subnet mask to a router interface.
+
+
 **Learning step by step, building my cybersecurity foundation! 🚀**
 
