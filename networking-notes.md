@@ -237,6 +237,94 @@ IPv6 is the newer version of the Internet Protocol, designed in part to provide 
 - Each group represents 16 bits.
 
 
+## Binary Number System
+
+- Computers understand and process information using binary language. The binary number system uses only two digits:
+
+- `0`
+- `1`
+
+Computers represent numbers and other types of data using binary at the hardware level.
+
+### Example: Convert Decimal 10 into Binary
+
+The binary place values are powers of 2.
+
+| Power | Calculation | Value |
+|---|---|---:|
+| 2⁷ | 2 × 2 × 2 × 2 × 2 × 2 × 2 | 128 |
+| 2⁶ | 2 × 2 × 2 × 2 × 2 × 2 | 64 |
+| 2⁵ | 2 × 2 × 2 × 2 × 2 | 32 |
+| 2⁴ | 2 × 2 × 2 × 2 | 16 |
+| 2³ | 2 × 2 × 2 | 8 |
+| 2² | 2 × 2 | 4 |
+| 2¹ | 2 | 2 |
+| 2⁰ | 1 | 1 |
+
+To convert decimal `10` into binary, select the place values that add up to 10.
+
+- 8 fits into 10 → `1`
+- 4 does not fit into the remaining 2 → `0`
+- 2 fits into the remaining 2 → `1`
+- 1 is not needed → `0`
+
+Therefore:
+
+**Decimal 10 = Binary 1010**
+
+In 8-bit form:
+
+`00001010`
+
+### Binary Place Values
+
+| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 |
+
+This represents the decimal number 10.
+
+---
+
+##  Cisco Packet Tracer
+
+- Cisco Packet Tracer is a network simulation tool used to create, configure, and test network devices virtually.
+
+
+
+##  Router Configuration Using CLI
+
+- The following commands configure a router interface with an IP address and subnet mask.
+
+### Commands
+
+- enable
+- configure terminal
+- interface fa0/0
+- ip address 192.168.1.1 255.255.255.0
+- no shutdown
+
+  ### IP Address Details
+
+- IP Address: `192.168.1.1`
+- Subnet Mask: `255.255.255.0`
+- Network Address: `192.168.1.0`
+- Default Gateway for devices on this LAN: `192.168.1.1` (when this router interface is their gateway)
+
+---
+
+##  Testing the Local Area Network
+
+After configuring the router and connected devices, use the `ping` command to test connectivity.
+
+### Example
+
+ping 192.168.1.1
+
+
+This tests connectivity to the device with IP address `192.168.1.1`.
+
+To test communication between two PCs, ping the destination PC's IP address from the source PC's command prompt.
 
 
 
