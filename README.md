@@ -86,6 +86,13 @@ I will keep updating this repository as I learn new networking concepts.
 - Configuring a router using Cisco IOS Command-Line Interface (CLI).
 - Assigning an IP address and subnet mask to a router interface.
 
+ ## Topics Covered
+- IPv4 address classification
+- IPv4 Classes A, B, C, D, and E
+- Default subnet masks
+- Network part and host part
+- Common uses of each IPv4 class
+
 
 **Learning step by step, building my cybersecurity foundation! 🚀**
 
