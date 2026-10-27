@@ -327,6 +327,57 @@ This tests connectivity to the device with IP address `192.168.1.1`.
 To test communication between two PCs, ping the destination PC's IP address from the source PC's command prompt.
 
 
+## What Is an IPv4 Address?
+
+- An IPv4 address is a 32-bit address used to identify a device on an IP network. It is normally written as four decimal numbers separated by dots, for example:
+  
+- 192.168.1.10
+- Each decimal number is called an octet and ranges from 0 to 255.
+
+# An IPv4 address can be described in terms of:
+- Network part: identifies the network.
+- Host part: identifies a device/interface within that network.
+In the traditional classful system, the default network and host portions depend on the address class.
+## IPv4 Address Classes
+
+# Class A
+
+- First-octet range: 1–126
+- Full traditional range: 1.0.0.0 – 126.255.255.255
+- Network part: first octet (8 bits)
+- Host part: remaining three octets (24 bits)
+- Default subnet mask: 255.0.0.0
+- Traditional use: very large networks
+The 0.x.x.x block is reserved, and 127.0.0.0/8 is reserved for loopback, so these are not ordinary Class A network ranges.
+## Class B
+
+- First-octet range: 128–191
+- Full traditional range: 128.0.0.0 – 191.255.255.255
+- Network part: first two octets (16 bits)
+- Host part: remaining two octets (16 bits)
+- Default subnet mask: 255.255.0.0
+- Traditional use: medium-sized networks
+## Class C
+
+- First-octet range: 192–223
+- Full traditional range: 192.0.0.0 – 223.255.255.255
+- Network part: first three octets (24 bits)
+- Host part: last octet (8 bits)
+- Default subnet mask: 255.255.255.0
+- Traditional use: smaller networks
+  
+## Class D
+
+- First-octet range: 224–239
+- Full range: 224.0.0.0 – 239.255.255.255
+- Purpose: multicast traffic
+Class D addresses are used for multicast groups, not ordinary classful unicast host networks.
+
+## Class E
+- First-octet range: 240–255
+- Full range: 240.0.0.0 – 255.255.255.255
+- Purpose: reserved/experimental use
+  
 
 
 
