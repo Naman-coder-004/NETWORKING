@@ -93,6 +93,10 @@ I will keep updating this repository as I learn new networking concepts.
 - Network part and host part
 - Common uses of each IPv4 class
 
+  ## TOPICS COVERED
+  - Routing
+  - Static Routing
+
 
 **Learning step by step, building my cybersecurity foundation! 🚀**
 
