@@ -377,7 +377,23 @@ Class D addresses are used for multicast groups, not ordinary classful unicast h
 - First-octet range: 240–255
 - Full range: 240.0.0.0 – 255.255.255.255
 - Purpose: reserved/experimental use
-  
+
+  ###  What Is Routing?
+
+- Routing is the process of selecting the best path for forwarding data packets from a source network to a destination network.
+
+###  Types of Routing
+
+
+#### A. Static Routing
+
+- Static routing is a method in which routes are manually configured by a network administrator.
+
+
+#### B. Dynamic Routing
+
+Dynamic routing allows routers to learn and update routes automatically using routing protocols.
+
 
 
 
