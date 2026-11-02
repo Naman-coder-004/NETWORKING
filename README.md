@@ -96,6 +96,10 @@ I will keep updating this repository as I learn new networking concepts.
   ## TOPICS COVERED
   - Routing
   - Static Routing
+ 
+     ## TOPICS COVERED
+    - Subnetting
+      
 
 
 **Learning step by step, building my cybersecurity foundation! 🚀**
