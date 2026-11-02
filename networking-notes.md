@@ -394,6 +394,13 @@ Class D addresses are used for multicast groups, not ordinary classful unicast h
 
 Dynamic routing allows routers to learn and update routes automatically using routing protocols.
 
+## Subnetting
+- when we divide large network into smaller networks.
+
+  ## CIDR
+  - class less inter domain routing.
+  - it explains how many network bits are used.
+
 
 
 
