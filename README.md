@@ -97,10 +97,11 @@ I will keep updating this repository as I learn new networking concepts.
   - Routing
   - Static Routing
  
-     ## TOPICS COVERED
+     ## TOPIC COVERED
     - Subnetting
-      
 
+       ## TOPIC COVERED
+- Dynamic routing using RIP protocol
 
 **Learning step by step, building my cybersecurity foundation! 🚀**
 
