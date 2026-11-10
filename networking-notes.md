@@ -400,7 +400,68 @@ Dynamic routing allows routers to learn and update routes automatically using ro
   ## CIDR
   - class less inter domain routing.
   - it explains how many network bits are used.
+ 
+    ## Dynamic Routing Using RIP (Routing Information Protocol)
 
+## What is RIP?
+
+- RIP (Routing Information Protocol) is a dynamic routing protocol used by routers to automatically exchange routing information with other routers.
+
+- RIP is a dynamic routing protocol.
+
+- It is used by routers to automatically learn routes.
+
+- Routers share routing information with other routers.
+
+- RIP helps routers find the best path to reach other networks without manually configuring static routes.
+
+## What is Dynamic Routing?
+
+- Dynamic routing is a process in which routers automatically learn and update routes using routing protocols.
+
+
+##  Commands Used for Dynamic Routing (RIP)
+
+- The following Cisco IOS commands are used to configure RIP Version 2.
+
+Step 1: Enter Global Configuration Mode
+
+enable
+configure terminal
+
+Step 2: Enable RIP
+
+router rip
+
+Step 3: Select RIP Version 2
+
+version 2
+
+Step 4: Disable Auto-Summarization
+
+no auto-summary
+
+Step 5: Advertise Networks
+
+network 192.168.1.0
+network 192.168.2.0
+
+Note: Replace these network addresses with the actual networks connected to your router.
+
+Step 6: Exit Configuration Mode
+
+end
+
+## Complete RIP Configuration Example
+
+- enable
+- configure terminal
+- router rip
+- version 2
+- no auto-summary
+- network 192.168.1.0
+- network 192.168.2.0
+- end
 
 
 
