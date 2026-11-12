@@ -103,5 +103,14 @@ I will keep updating this repository as I learn new networking concepts.
        ## TOPIC COVERED
 - Dynamic routing using RIP protocol
 
+  ## TOPIC COVERED
+
+  - Dynamic routing types
+  - Link state routing
+  - Distance vector routing
+  - OSPF
+
+  
+
 **Learning step by step, building my cybersecurity foundation! 🚀**
 
