@@ -464,6 +464,108 @@ end
 - end
 
 
+# Dynamic Routing and OSPF
+
+## 1. What is Dynamic Routing?
+
+Dynamic Routing is a process in which routers automatically learn network routes and exchange routing information to select the best path to reach a destination.
+
+## 2. Types of Dynamic Routing
+
+Dynamic Routing is mainly divided into two types:
+
+1. Distance Vector Routing
+2. Link State Routing
+
+## 3. Distance Vector Routing
+
+Distance Vector Routing is a routing technique in which routers share routing information with their directly connected neighboring routers.
+
+**Protocol: RIP (Routing Information Protocol)**
+
+### Features
+
+- Shares routing information with neighboring routers.
+- Uses hop count as its routing metric.
+- Maximum supported hop count is 15.
+- 16 hops represents an unreachable destination.
+
+## 4. Link State Routing
+
+Link State Routing is a routing technique in which routers share information about their connected links and build a topology map of the routing area.
+
+**Protocol: OSPF (Open Shortest Path First)**
+
+### Features
+
+- Routers exchange link-state information.
+- Builds a topology database of the network.
+- Uses Dijkstra's Shortest Path First algorithm.
+- Uses cost as its routing metric.
+
+## 5. OSPF (Open Shortest Path First)
+
+OSPF is a Link State Dynamic Routing Protocol that allows routers to exchange network topology information and calculate the shortest path to each destination using Dijkstra's algorithm.
+
+
+## 6. OSPF Configuration in Cisco Packet Tracer
+
+There are two methods to configure OSPF.
+
+### Method 1: Using Network Command
+
+**Step 1: Enter privileged mode**
+
+enable
+
+**Step 2: Enter global configuration mode**
+
+configure terminal
+
+
+**Step 3: Start OSPF**
+
+router ospf 1
+
+Here, `1` is the OSPF process ID.
+
+**Step 4: Advertise the network**
+
+network 192.168.1.0 0.0.0.255 area 0
+
+
+### Command Explanation
+
+- `192.168.1.0` – Network address.
+- `0.0.0.255` – Wildcard mask.
+- `area 0` – OSPF Backbone Area.
+
+### Method 2: Using Interface Command
+
+**Step 1: Enter configuration mode**
+
+enable
+configure terminal
+
+**Step 2: Start OSPF**
+
+router ospf 1
+
+
+**Step 3: Select the interface**
+
+interface gigabitEthernet 0/0
+
+
+**Step 4: Enable OSPF on the interface**
+
+ip ospf 1 area 0
+
+
+This method enables OSPF directly on the selected interface.
+
+
+
 
 ## Learning Goal 🎯
 
