@@ -644,19 +644,7 @@ The client sends a DHCP Request message to request the offered IP address.
 
 The DHCP server sends a DHCP Acknowledgement (ACK) message to confirm the IP address assignment.
 
-### DORA Process Flow
 
-Client                         DHCP Server
-  |                                  |
-  |------ DHCP Discover -----------> |
-  |                                  |
-  | <--------- DHCP Offer ---------- |
-  |                                  |
-  |------ DHCP Request ------------> |
-  |                                  |
-  | <------ DHCP Acknowledgement --- |
-  |                                  |
-  IP Address Successfully Assigned
 
 
 
