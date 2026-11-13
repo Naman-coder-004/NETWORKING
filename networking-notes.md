@@ -566,6 +566,104 @@ This method enables OSPF directly on the selected interface.
 
 
 
+## 1. Network Topologies
+
+### Introduction
+Network topology refers to the physical or logical arrangement of devices (computers, switches, routers, etc.) in a network.
+
+It explains how network devices are connected and how data travels between them.
+
+### Types of Network Topologies
+
+## 1.1 Bus Topology
+
+**Definition:**
+Bus topology is a network arrangement in which all devices are connected to a single main cable called the backbone cable.
+
+
+## 1.2 Ring Topology
+
+**Definition:**
+Ring topology is a network arrangement in which every device is connected to two other devices, forming a circular structure.
+
+
+## 1.3 Double Ring Topology
+
+**Definition:**
+Double ring topology is an advanced form of ring topology in which two separate rings connect network devices.
+
+
+## 1.4 Star Topology
+
+**Definition:**
+Star topology is a network arrangement in which all devices are connected to a central device, such as a switch or hub.
+
+## 1.5 Hybrid Topology
+
+**Definition:**
+Hybrid topology is a combination of two or more different network topologies.
+
+**Example:**
+- Ring + Bus Topology
+- Star + Bus Topology
+- Star + Ring Topology
+
+## 1.6 Mesh Topology
+
+**Definition:**
+Mesh topology is a network arrangement in which devices are connected to multiple other devices through dedicated links.
+
+
+# 2. DHCP Server
+
+## 2.1 What is DHCP?
+
+**DHCP = Dynamic Host Configuration Protocol**
+
+DHCP is a network protocol that automatically assigns IP addresses and other network configuration details to devices connected to a network.
+
+It reduces the need to manually configure IP addresses on every computer.
+
+## 2.2 How DHCP Server Works (DORA Process)
+
+DHCP follows a four-step process known as DORA.
+
+### 1. D – Discover
+
+The client sends a DHCP Discover message to find available DHCP servers on the network.
+
+### 2. O – Offer
+
+The DHCP server responds with a DHCP Offer message containing an available IP address and network configuration details.
+
+### 3. R – Request
+
+The client sends a DHCP Request message to request the offered IP address.
+
+### 4. A – Acknowledgement
+
+The DHCP server sends a DHCP Acknowledgement (ACK) message to confirm the IP address assignment.
+
+### DORA Process Flow
+
+Client                         DHCP Server
+  |                                  |
+  |------ DHCP Discover -----------> |
+  |                                  |
+  | <--------- DHCP Offer ---------- |
+  |                                  |
+  |------ DHCP Request ------------> |
+  |                                  |
+  | <------ DHCP Acknowledgement --- |
+  |                                  |
+  IP Address Successfully Assigned
+
+
+
+
+
+
+
 
 ## Learning Goal 🎯
 
