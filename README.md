@@ -109,6 +109,10 @@ I will keep updating this repository as I learn new networking concepts.
   - Link state routing
   - Distance vector routing
   - OSPF
+ 
+     ## TOPIC COVERED
+    - DHCP Server
+    - Network Topologies
 
   
 
