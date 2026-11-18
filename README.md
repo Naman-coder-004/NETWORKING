@@ -113,6 +113,10 @@ I will keep updating this repository as I learn new networking concepts.
      ## TOPIC COVERED
     - DHCP Server
     - Network Topologies
+   
+      ## TOPIC COVERED
+      - BGP protocol
+      - DNS server
 
   
 
