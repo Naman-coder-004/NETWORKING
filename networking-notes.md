@@ -645,6 +645,279 @@ The client sends a DHCP Request message to request the offered IP address.
 The DHCP server sends a DHCP Acknowledgement (ACK) message to confirm the IP address assignment.
 
 
+##  BGP (Border Gateway Protocol)
+
+### Introduction
+- BGP stands for Border Gateway Protocol.
+- It is an External Gateway Protocol (EGP).
+- BGP is a Path Vector Routing Protocol.
+- It is used to exchange routing information between different Autonomous Systems (AS).
+- BGP uses TCP port **179**.
+
+### Types of BGP
+
+1. **iBGP (Internal BGP)**
+   - Used for routing information exchange within the same Autonomous System.
+   - Both routers belong to the same AS number.
+
+2. **eBGP (External BGP)**
+   - Used for routing information exchange between different Autonomous Systems.
+   - Routers belong to different AS numbers.
+
+### Example of Autonomous Systems
+
+| Internet Service Provider | AS Number |
+|---|---:|
+| Jio | 100 |
+| Airtel | 200 |
+| VI | 300 |
+
+### What Does BGP Do?
+
+Suppose three Internet Service Providers are connected:
+
+- Jio (AS 100)
+- Airtel (AS 200)
+- VI (AS 300)
+
+BGP exchanges routing information between these different autonomous systems so that networks can communicate with each other.
+
+
+##  BGP Configuration in Cisco Packet Tracer
+
+### Router 1 Configuration
+
+**Autonomous System: 100**
+
+enable
+configure terminal
+router bgp 100
+neighbor 10.0.0.1 remote-as 200
+network 192.168.1.0 mask 255.255.255.0
+
+
+### Router 2 Configuration
+
+**Autonomous System: 200**
+
+enable
+configure terminal
+router bgp 200
+neighbor 10.0.0.1 remote-as 100
+network 192.168.2.0 mask 255.255.255.0
+
+
+**Important:**
+- `router bgp` starts BGP configuration.
+- `neighbor` specifies the neighboring router.
+- `remote-as` specifies the neighbor's Autonomous System number.
+- `network` advertises the specified network through BGP.
+- The neighbor IP must be the actual IP address of the directly connected BGP peer.
+
+
+##  DHCP Server Configuration
+
+DHCP stands for Dynamic Host Configuration Protocol.
+
+It automatically assigns IP addresses and other network configuration details to devices.
+
+### Router 1 – DHCP Pool (India)
+
+ip dhcp pool India
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.1
+
+
+### Router 2 – DHCP Pool (Canada)
+
+ip dhcp pool Canada
+network 192.168.2.0 255.255.255.0
+default-router 192.168.2.1
+
+
+### Explanation
+
+- `ip dhcp pool`: Creates a DHCP address pool.
+- `network`: Defines the network for which IP addresses are assigned.
+- `default-router`: Specifies the default gateway given to clients.
+
+---
+
+## HTTP (Hypertext Transfer Protocol)
+
+### Introduction
+
+- HTTP stands for Hypertext Transfer Protocol.
+- It is an Application Layer protocol.
+- HTTP is used for communication between web browsers and web servers.
+- HTTP commonly uses TCP port **80**.
+- An HTTP server is used to host websites and web pages.
+
+### Working of HTTP
+
+1. A user enters a website address in the browser.
+2. The browser sends an HTTP request to the web server.
+3. The web server processes the request.
+4. The server sends an HTTP response.
+5. The browser displays the requested web page.
+
+### Important Points
+
+| Feature | HTTP |
+|---|---|
+| Full Form | Hypertext Transfer Protocol |
+| OSI Layer | Application Layer |
+| Transport Protocol | TCP |
+| Default Port | 80 |
+| Main Purpose | Communication between browser and web server |
+
+---
+
+##  DNS (Domain Name System)
+
+### Introduction
+
+- DNS stands for Domain Name System.
+- DNS is an Application Layer protocol.
+- It converts domain names into IP addresses.
+- It makes websites easier to access without remembering numerical IP addresses.
+
+### Example
+
+When we enter:
+
+
+www.google.com
+
+
+DNS resolves the domain name into its corresponding IP address.
+
+### Purpose of DNS
+
+DNS helps web browsers find the IP address of a website using its domain name.
+
+
+##  How DNS Works
+
+### Step 1: Enter a Domain Name
+
+The user enters a domain name in the web browser.
+
+Example:
+
+www.example.com
+
+
+### Step 2: Browser Checks DNS Cache
+
+- The browser checks its DNS cache.
+- It checks whether the IP address is already available.
+- If the IP address is cached, it can be used without making a new DNS query.
+
+### Step 3: DNS Query to Resolver
+
+- If the IP address is not cached, the computer sends a DNS query to its configured DNS resolver.
+- The resolver searches for the required IP address.
+
+### Step 4: DNS Hierarchy
+
+If the resolver does not already have the answer cached, it follows the DNS hierarchy.
+
+**1. Root DNS Server**
+- The resolver contacts a Root DNS server.
+- The Root DNS server directs the resolver towards the appropriate TLD server.
+
+**2. TLD DNS Server**
+- TLD stands for Top-Level Domain.
+- Examples: `.com`, `.org`, `.in`.
+- The TLD server directs the resolver towards the authoritative DNS server.
+
+**3. Authoritative DNS Server**
+- Contains the actual DNS records for the domain.
+- Provides the requested IP address.
+
+### Step 5: Return IP Address
+
+- The authoritative DNS server provides the requested IP address.
+- The resolver returns the IP address to the computer.
+- The browser uses the IP address to connect to the web server.
+
+### DNS Resolution Flow
+
+
+User enters domain name
+         |
+         v
+Browser DNS Cache
+         |
+         v
+Configured DNS Resolver
+         |
+         v
+Root DNS Server
+         |
+         v
+TLD DNS Server
+         |
+         v
+Authoritative DNS Server
+         |
+         v
+IP Address Returned
+         |
+         v
+Browser Connects to Website
+
+
+
+##  DNS Server Configuration in Cisco Packet Tracer
+
+### Step 1: Configure Server 1
+
+1. Open Server 1.
+2. Go to Services.
+3. Select DNS.
+4. Enable the DNS service.
+5. Add the required DNS record.
+
+### Step 2: Add DNS Record
+
+1. Enter the domain name.
+2. Enter the corresponding IP address.
+3. Save the DNS record.
+
+### Step 3: Configure HTTP Server (Server 2)
+
+1. Open Server 2.
+2. Go to Services.
+3. Select HTTP.
+4. Enable HTTP service.
+5. Open `index.html`.
+6. Edit the HTML page as required.
+7. Save the changes.
+
+### Step 4: Test DNS
+
+1. Open a PC in the network.
+2. Open the Web Browser.
+3. Enter the configured domain name.
+4. The browser should resolve the domain and display the hosted website.
+
+
+
+##  Important Protocols and Port Numbers
+
+| Protocol | Full Form | Port Number |
+|---|---|---:|
+| HTTP | Hypertext Transfer Protocol | 80 |
+| BGP | Border Gateway Protocol | 179 |
+| DNS | Domain Name System | 53 |
+| DHCP | Dynamic Host Configuration Protocol | 67, 68 |
+
+
+
+
+
 
 
 
