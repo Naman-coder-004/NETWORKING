@@ -914,7 +914,19 @@ Browser Connects to Website
 | DNS | Domain Name System | 53 |
 | DHCP | Dynamic Host Configuration Protocol | 67, 68 |
 
+# FTP (File Transfer Protocol)
 
+##  What is FTP?
+
+FTP stands for **File Transfer Protocol**. It is a standard network protocol used to transfer files between a client and a server over a TCP/IP network.
+
+FTP allows users to:
+- Upload files from a client to a server.
+- Download files from a server to a client.
+- Rename files.
+- Delete files (if permissions allow).
+- Manage files and directories on a remote server.
+- Ports-20,21
 
 
 
