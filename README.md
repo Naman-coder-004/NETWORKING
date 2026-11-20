@@ -121,6 +121,9 @@ I will keep updating this repository as I learn new networking concepts.
         ## TOPIC COVERED
         - FTP Server
 
+           ## TOPIC COVERED
+          - MAIL Server
+
   
 
 **Learning step by step, building my cybersecurity foundation! 🚀**
