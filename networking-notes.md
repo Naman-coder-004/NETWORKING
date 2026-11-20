@@ -928,6 +928,38 @@ FTP allows users to:
 - Manage files and directories on a remote server.
 - Ports-20,21
 
+ ## Mail Server
+
+- A Mail Server is used to send and receive emails between computers over a network.
+
+- It allows users to communicate through email by sending, receiving, and storing messages.
+
+## Mail Server Protocols
+
+- We configure a mail server using two important protocols:
+
+  - SMTP (Simple Mail Transfer Protocol)
+- POP3 (Post Office Protocol Version 3)
+  
+  # SMTP (Simple Mail Transfer Protocol)
+
+- SMTP is used to send emails from a client to a mail server.
+
+- It is also used to transfer emails between mail servers.
+
+- SMTP is responsible for outgoing email communication.
+
+- Port Number: 25
+
+# POP3 (Post Office Protocol Version 3)
+
+- POP3 is used to receive or download emails from a mail server.
+
+- It allows an email client to retrieve messages stored on the mail server.
+
+- POP3 is responsible for incoming email retrieval.
+
+- Port Number: 110
 
 
 
