@@ -961,6 +961,13 @@ FTP allows users to:
 
 - Port Number: 110
 
+# VLAN (Virtual Local Area Network)
+
+A VLAN is a logical network created within a physical network that divides a switch into separate parts.
+
+# Trunking
+
+Trunking is a method of carrying traffic from multiple VLANs through a single physical link between different networking devices.
 
 
 
