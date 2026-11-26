@@ -127,6 +127,14 @@ I will keep updating this repository as I learn new networking concepts.
              ## TOPIC COVERED
             - VLAN
             - TRUNKING
+           
+               ## TOPIC COVERED
+              -IPV6
+              -TYPES OF IPV6
+              -UNICAST
+              -MULTICAST
+              -ANYCAST
+              
 
   
 
