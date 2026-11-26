@@ -969,6 +969,34 @@ A VLAN is a logical network created within a physical network that divides a swi
 
 Trunking is a method of carrying traffic from multiple VLANs through a single physical link between different networking devices.
 
+## IPv6 
+- (Internet Protocol Version 6) is the latest version of the Internet Protocol used to identify devices and enable communication over a network or the internet.
+- IPv6 uses a 128-bit IP address.
+- It is represented in hexadecimal format.
+- It provides a much larger address space than IPv4.
+- It was developed to overcome the shortage of IPv4 addresses.
+
+## IPv6 Unicast
+- One-to-One Communication
+- Unicast is communication between one sender and one receiver.
+- Data is sent from one device to a specific device.
+- Every interface has a unique unicast address within its scope.
+- Example: A PC sends data to a particular server.
+
+## IPv6 Multicast
+- One-to-Many Communication
+- Multicast sends data from one sender to multiple selected receivers.
+- Only devices that have joined a particular multicast group receive the data.
+- IPv6 multicast addresses start with FF.
+- Example: A server sends the same information to multiple computers in a network.
+
+## IPv6 Anycast
+- One-to-Nearest Communication
+- Anycast uses the same IP address on multiple devices.
+- Data is delivered to the nearest available device according to routing metrics.
+- It helps improve network performance and availability.
+- Example: A user accesses a website, and the network routes the request to the nearest available server.
+
 
 
 
